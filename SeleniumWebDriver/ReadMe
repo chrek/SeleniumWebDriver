@@ -1,0 +1,39 @@
+References: 
+1. Selenium WebDriver From Foundations To Framework.pdf by Yujun Liang & Alex Collins
+
+We are using WebDriver for test automation development. 
+You can use the handbook (see References (1) for solutions like interacting with and testing web
+applications and using the WebDriver APIs.
+
+The testing site / project
+The test codes run on a small website that you can download from
+
+git clone https://github.com/selenium-webdriver-book/source.git
+cd source
+
+The application has a built-in web server that can be started by entering the following:
+mvn jetty:run
+
+Locating elements on a page: SeleniumWebDriver/src/criscar/webdriver/chap2
+Interacting with elements on a page: SeleniumWebDriver/src/criscar/webdriver/chap3
+Examining a page: SeleniumWebDriver/src/criscar/webdriver/chap4
+Making maintainable tests using the Page Object pattern: SeleniumWebDriver/src/criscar/webdriver/chap5
+What to do when something goes wrong: SeleniumWebDriver/src/criscar/webdriver/chap6
+
+Chapter 7: Managing WebDriver
+Chapter 8: Windows, pop-ups, and frames
+Chapter 9: Unicorns and other beasts: exotic features of web pages
+Chapter 10: Executing JavaScript using the JavascriptExecutor interface
+Chapter 11: What you need to know about different browsers
+Chapter 12: Wrapping WebDriver and WebElement
+Part 3: Page based automation framework
+Chapter 13: Forming a framework
+Chapter 14: Encapsulating and grouping elements
+Chapter 15: Automating a page flow
+Chapter 16: Examining HTML tables
+Chapter 17: Automating jQuery datepicker
+Chapter 18: Datepicker framework
+Appendices
+Appendix A: Selenium grid
+2
+Introduction
